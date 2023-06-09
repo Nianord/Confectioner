@@ -1,28 +1,27 @@
-const elemClick = document.querySelectorAll('.header__click');
+"use strict"
 
-for (let i=0; i<elemClick.length; i++ ) {
-elemClick[i].addEventListener('click', appear);
-}
+const elemClick = document.querySelector('.header__click');
+const elemHide = document.querySelector('.header__hide');
+const elemClose = document.querySelector('.close');
+
+elemClick.addEventListener('click', appear);
 window.addEventListener('click', remove);
+elemClose.addEventListener('click', remove);
 
 function appear() {
-	for (let i=0; i<elemClick.length; i++) {
-		if (elemClick[i] == this) {
-			elemClick[i].classList.toggle('_appear');
+		if (elemClick == this) {
+			elemHide.classList.toggle('_appear');
+			elemClose.classList.toggle('_appear');
 		} else {
-			elemClick[i].classList.remove('_appear');
+			elemHide.classList.remove('_appear');
 		}
 	} 
-}
-
 function remove() {
-	if (!event.target.closest('.header__click')) {
-		for (let i=0; i<elemClick.length; i++) {
-		elemClick[i].classList.remove('_appear');
+	if (!event.target.closest('.header__click') || elemClose==this) {
+		elemHide.classList.remove('_appear');
+		elemClose.classList.remove('_appear');
 		}
 	}
-}
-
 
 function ibg(){
 	let ibg=document.querySelectorAll(".ibg"); 
@@ -57,7 +56,6 @@ let myImageSlider = new Swiper('.image-slider', {
 });
 
 
-"use strict"
 window.onload = function () {
 	const parallax = document.querySelector('.parallax');
 
