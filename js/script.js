@@ -150,22 +150,22 @@ window.onload = function () {
 		}
 
 		function setParallaxItemsStyle(scrollTopProcent) {
-			move1.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.5}%);`;
-			move2.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.3}%);`;
-			move3.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.9}%);`;
-			move4.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.8}%);`;
-			move5.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.2}%);`;
-			move6.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.5}%);`;
-			move7.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.6}%);`;
-			move8.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.5}%);`;
-			move9.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.3}%);`;
-			move10.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.9}%);`;
-			move11.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.8}%);`;
-			move12.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.2}%);`;
-			move13.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.5}%);`;
-			move14.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.6}%);`;
-			move15.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.5}%);`;
-			move16.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.3}%);`;
+			move1.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.05}%);`;
+			move2.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.03}%);`;
+			move3.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.09}%);`;
+			move4.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.08}%);`;
+			move5.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.02}%);`;
+			move6.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.05}%);`;
+			move7.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.06}%);`;
+			move8.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.05}%);`;
+			move9.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.03}%);`;
+			move10.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.09}%);`;
+			move11.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.08}%);`;
+			move12.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.02}%);`;
+			move13.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.05}%);`;
+			move14.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.06}%);`;
+			move15.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.05}%);`;
+			move16.parentElement.style.cssText = `transform: translate(0%,-${scrollTopProcent /0.03}%);`;
 		}
 	}
 }
