@@ -39,6 +39,11 @@ let myImageSlider = new Swiper('.image-slider', {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
 	},
+	scrollbar: {
+		el: '.swiper-scrollbar',
+		//перетаскивать скролл
+		draggable: true,
+	},
 	keyboard: {
 		enabled: true,
 		onlyInViewport: true,
