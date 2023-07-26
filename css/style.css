@@ -598,15 +598,20 @@ img.minimized:hover, img.minimized:active {
   cursor: pointer; }
 
 .magnify {
-  display: flex;
+  opacity: 0;
   position: fixed;
   z-index: 9999;
-  max-width: 1400px;
-  width: 200%; }
+  max-height: 85%;
+  max-width: 1000px;
+  width: 88vw;
+  overflow: auto;
+  border-radius: 25px;}
 
 .magnify img {
-  width: 100%;
-  height: 100%; }
+ max-width: 100%;
+	width: 88vw;
+	height: 100%;
+	border-radius: 25px; }
 
 .overlay {
   display: none;
