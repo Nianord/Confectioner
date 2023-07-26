@@ -58,6 +58,12 @@ body{
 	color: #fff;
 }
 
+img.minimized {
+  transition: all 0.3s ease 0s; }
+
+img.minimized:hover, img.minimized:active {
+  transition: all 0.3s ease 0s;
+  opacity: 0.7; }
 
 .parallax__item {
 	position: absolute;
